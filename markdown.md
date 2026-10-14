@@ -69,7 +69,7 @@ ss -tuln
 
 La seguridad digital también se aprende mediante la formación. En centros como el **IES Clara del Rey**, los estudios relacionados con la informática ayudan a desarrollar conocimientos técnicos aplicables a la administración segura de sistemas.
 
-![Fachada del IES Clara del Rey en Madrid](https://upload.wikimedia.org/wikipedia/commons/2/28/I.e.s._clara_del_rey_%28Prosperidad%2C_Madrid%29.jpg)
+![Fachada del IES Clara del Rey en Madrid](https://upload.wikimedia.org/wikipedia/commons/2/28/I.e.s._clara_del_rey_%28Prosperidad%2C_Madrid%29.jpg?utm_campaign=index&utm_content=original&utm_source=commons.wikimedia.org)
 
 *Fotografía de ANAGSPC, publicada en [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:I.e.s._clara_del_rey_(Prosperidad,_Madrid).jpg), bajo licencia [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).*
 
