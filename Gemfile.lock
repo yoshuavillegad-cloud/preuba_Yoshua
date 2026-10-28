@@ -76,6 +76,7 @@ PLATFORMS
   x86_64-linux-gnu
 
 DEPENDENCIES
+  bigdecimal
   jekyll
 
 CHECKSUMS
