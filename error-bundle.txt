@@ -1,0 +1,75 @@
+Fetching gem metadata from https://rubygems.org/...........
+Resolving dependencies...
+Bundler::PermissionError: There was an error while trying to write to
+`/var/lib/gems/3.3.0/cache`. It is likely that you need to grant write
+permissions for that path.
+/home/vboxuser/.local/share/gem/ruby/3.3.0/gems/bundler-4.0.23/lib/bundler/shared_helpers.rb:110:in
+`rescue in filesystem_access'
+/home/vboxuser/.local/share/gem/ruby/3.3.0/gems/bundler-4.0.23/lib/bundler/shared_helpers.rb:105:in
+`filesystem_access'
+/home/vboxuser/.local/share/gem/ruby/3.3.0/gems/bundler-4.0.23/lib/bundler/source/rubygems.rb:476:in
+`fetch_gem'
+/home/vboxuser/.local/share/gem/ruby/3.3.0/gems/bundler-4.0.23/lib/bundler/source/rubygems.rb:463:in
+`fetch_gem_if_possible'
+/home/vboxuser/.local/share/gem/ruby/3.3.0/gems/bundler-4.0.23/lib/bundler/source/rubygems.rb:585:in
+`rubygems_gem_installer'
+/home/vboxuser/.local/share/gem/ruby/3.3.0/gems/bundler-4.0.23/lib/bundler/source/rubygems.rb:213:in
+`install'
+/home/vboxuser/.local/share/gem/ruby/3.3.0/gems/bundler-4.0.23/lib/bundler/installer/gem_installer.rb:68:in
+`install'
+/home/vboxuser/.local/share/gem/ruby/3.3.0/gems/bundler-4.0.23/lib/bundler/installer/gem_installer.rb:17:in
+`install_from_spec'
+/home/vboxuser/.local/share/gem/ruby/3.3.0/gems/bundler-4.0.23/lib/bundler/installer/parallel_installer.rb:209:in
+`do_install'
+/home/vboxuser/.local/share/gem/ruby/3.3.0/gems/bundler-4.0.23/lib/bundler/installer/parallel_installer.rb:169:in
+`install_serially'
+/home/vboxuser/.local/share/gem/ruby/3.3.0/gems/bundler-4.0.23/lib/bundler/installer/parallel_installer.rb:97:in
+`call'
+/home/vboxuser/.local/share/gem/ruby/3.3.0/gems/bundler-4.0.23/lib/bundler/installer/parallel_installer.rb:62:in
+`call'
+/home/vboxuser/.local/share/gem/ruby/3.3.0/gems/bundler-4.0.23/lib/bundler/installer.rb:214:in
+`install'
+/home/vboxuser/.local/share/gem/ruby/3.3.0/gems/bundler-4.0.23/lib/bundler/installer.rb:83:in
+`block in run'
+/home/vboxuser/.local/share/gem/ruby/3.3.0/gems/bundler-4.0.23/lib/bundler/process_lock.rb:16:in
+`rescue in lock'
+/home/vboxuser/.local/share/gem/ruby/3.3.0/gems/bundler-4.0.23/lib/bundler/process_lock.rb:11:in
+`lock'
+/home/vboxuser/.local/share/gem/ruby/3.3.0/gems/bundler-4.0.23/lib/bundler/installer.rb:65:in
+`run'
+/home/vboxuser/.local/share/gem/ruby/3.3.0/gems/bundler-4.0.23/lib/bundler/installer.rb:17:in
+`install'
+/home/vboxuser/.local/share/gem/ruby/3.3.0/gems/bundler-4.0.23/lib/bundler/cli/install.rb:50:in
+`run'
+/home/vboxuser/.local/share/gem/ruby/3.3.0/gems/bundler-4.0.23/lib/bundler/cli.rb:308:in
+`block in install'
+/home/vboxuser/.local/share/gem/ruby/3.3.0/gems/bundler-4.0.23/lib/bundler/settings.rb:145:in
+`temporary'
+/home/vboxuser/.local/share/gem/ruby/3.3.0/gems/bundler-4.0.23/lib/bundler/cli.rb:307:in
+`install'
+/home/vboxuser/.local/share/gem/ruby/3.3.0/gems/bundler-4.0.23/lib/bundler/vendor/thor/lib/thor/command.rb:28:in
+`run'
+/home/vboxuser/.local/share/gem/ruby/3.3.0/gems/bundler-4.0.23/lib/bundler/vendor/thor/lib/thor/invocation.rb:127:in
+`invoke_command'
+/home/vboxuser/.local/share/gem/ruby/3.3.0/gems/bundler-4.0.23/lib/bundler/vendor/thor/lib/thor.rb:538:in
+`dispatch'
+/home/vboxuser/.local/share/gem/ruby/3.3.0/gems/bundler-4.0.23/lib/bundler/cli.rb:35:in
+`dispatch'
+/home/vboxuser/.local/share/gem/ruby/3.3.0/gems/bundler-4.0.23/lib/bundler/vendor/thor/lib/thor/base.rb:585:in
+`start'
+/home/vboxuser/.local/share/gem/ruby/3.3.0/gems/bundler-4.0.23/lib/bundler/cli.rb:29:in
+`start'
+/home/vboxuser/.local/share/gem/ruby/3.3.0/gems/bundler-4.0.23/exe/bundle:28:in
+`block in <top (required)>'
+/home/vboxuser/.local/share/gem/ruby/3.3.0/gems/bundler-4.0.23/lib/bundler/friendly_errors.rb:118:in
+`with_friendly_errors'
+/home/vboxuser/.local/share/gem/ruby/3.3.0/gems/bundler-4.0.23/exe/bundle:20:in
+`<top (required)>'
+  /home/vboxuser/.local/share/gem/ruby/3.3.0/bin/bundle:25:in `load'
+  /home/vboxuser/.local/share/gem/ruby/3.3.0/bin/bundle:25:in `<main>'
+
+An error occurred while installing base64 (0.3.0), and Bundler cannot continue.
+
+In Gemfile:
+  jekyll was resolved to 4.4.1, which depends on
+    base64
